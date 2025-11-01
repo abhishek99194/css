@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 50px; 
+            background-color: lightpink;
+        }
+        p {
+            letter-spacing: 2px; /* Space between letters */
+            word-spacing: 10px; /* Space between words */
+             /*line-height: 20px;*/ /* Space between lines*/
+        }
+        /*  p::before{
+            content: "\2605";
+            color: red;
+            content: '\0026';
+        } */
+         p::after{ 
+            content: " \2605";
+            color: red;
+         } 
+    </style>
+</head>
+<body>
+  <div class="box">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ex, possimus illum itaque dolore nemo nesciunt dolorum delectus non? Magnam nam quas illo culpa earum veniam reprehenderit sunt, velit aut? lorem </p>
+  </div>
+</body>
+</html>
